@@ -1,6 +1,10 @@
-@font-face{
-    font-family:Myriad Pro;
-    src:url(../fonts/MyriadPro-Regular.otf);
+@font-face {
+    font-family: 'khmer_sangam_mnregular';
+    src: url('../fonts/khmer_sangam_mn-webfont.woff2') format('woff2'),
+         url('../fonts/khmer_sangam_mn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body{
@@ -24,14 +28,13 @@ ul li{
     padding:0;
 }
 
-
-
 /******************************************************************************************************************
                                             Start Main ViewPort
 ******************************************************************************************************************/
 
 
 /*******************************  Background part  ************************************/
+
 #Grafixin {
     position: relative;
     background-image: url(../images/background.jpg);
@@ -65,28 +68,32 @@ ul li{
     width: 927px;
 }
 
-
-
 /*******************************  End Background part  ************************************/
 
-
-
-
-
+/*******************************  Start Head-Section  ************************************/
 
 #Grafixin div.head-section {
     padding-top: 90px;
 }
 
 
-
-/******************************************************************************************************************
-                                           End Main ViewPort
-******************************************************************************************************************/
-
 /***** Start Logo *****/
 
+.logo {
+    position: absolute;
+    top: -68px;
+    left: -100px;
+}
 
+
+.logo span {
+    font-size: 48px;
+    color: #0e7070;
+    font-family: 'khmer_sangam_mnregular';
+    position: absolute;
+    left: 105px;
+    top: 60px;
+}
 
 /***** End Logo *****/
 
@@ -97,6 +104,16 @@ ul li{
 
 
 /*****End Menu*****/
+
+
+/*******************************  End Head-Section  ************************************/
+
+
+
+/******************************************************************************************************************
+                                           End Main ViewPort
+******************************************************************************************************************/
+
 
 /*
 
@@ -165,12 +182,5 @@ div.logo img {
     margin-left: -105px;
 }
 
-.logo span {
-    position: absolute;
-    left: 30px;
-    font-size: 48px;
-    color: #0e7070;
-    font-family: Myriad Pro;
-}
 
 */
