@@ -1,0 +1,176 @@
+@font-face{
+    font-family:Myriad Pro;
+    src:url(../fonts/MyriadPro-Regular.otf);
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    margin:0;
+    padding:0;
+}
+
+
+
+/******************************************************************************************************************
+                                            Start Main ViewPort
+******************************************************************************************************************/
+
+
+/*******************************  Background part  ************************************/
+#Grafixin {
+    position: relative;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.small-g,
+.big-g{
+    position:absolute;
+    top:0;
+}
+
+.small-g{
+    background-image: url(../images/smallG.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 172px;
+    height: 726px;
+    width: 560px;
+}
+
+.big-g{
+    background-image: url(../images/BigG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -270px;
+    height: 100vh;
+    width: 927px;
+}
+
+
+
+/*******************************  End Background part  ************************************/
+
+
+
+
+
+
+#Grafixin div.head-section {
+    padding-top: 90px;
+}
+
+
+
+/******************************************************************************************************************
+                                           End Main ViewPort
+******************************************************************************************************************/
+
+/***** Start Logo *****/
+
+
+
+/***** End Logo *****/
+
+
+
+/*****Start Menu*****/
+
+
+
+/*****End Menu*****/
+
+/*
+
+.viewport-text h2 {
+    color: #0e7070;
+    font-weight: 100;
+    padding-right: 60px;
+    letter-spacing: 1px;
+    text-align: right;
+    font-family: Myriad Pro;
+    font-size: 47px;
+    padding-top:215px;
+}
+
+span.deep-bold {
+    font-size: 48px;
+    letter-spacing: 0px;
+    display: block;
+    font-weight:bold;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+div.main-menu ul li {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+div.main-menu ul li a {
+    color: #399;
+    padding: 5px 4px;
+}
+
+
+div.main-menu ul li:hover {
+    border:1px solid #333;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+div.logo img {
+    padding-top: 22px;
+    margin-left: -105px;
+}
+
+.logo span {
+    position: absolute;
+    left: 30px;
+    font-size: 48px;
+    color: #0e7070;
+    font-family: Myriad Pro;
+}
+
+*/
