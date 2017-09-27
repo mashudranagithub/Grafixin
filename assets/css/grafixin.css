@@ -79,20 +79,23 @@ ul li{
 
 /***** Start Logo *****/
 
-.logo {
+.logo,
+.logo span{
     position: absolute;
+}
+
+.logo {
     top: -68px;
     left: -100px;
 }
 
 
 .logo span {
+    left: 105px;
+    top: 60px;
     font-size: 48px;
     color: #0e7070;
     font-family: 'khmer_sangam_mnregular';
-    position: absolute;
-    left: 105px;
-    top: 60px;
 }
 
 /***** End Logo *****/
@@ -101,7 +104,27 @@ ul li{
 
 /*****Start Menu*****/
 
+.main-menu.text-right ul {
+    margin-top: -3px;
+}
 
+.main-menu.text-right ul li {
+    display: inline-block;
+}
+
+.main-menu.text-right ul li a {
+    font-size:18px;
+    font-weight:normal;
+    font-family: 'Khmer_sangam_mnregular';
+    color: #0e7070;
+    padding:9px 9px 1px 9px;
+}
+
+.main-menu.text-right ul li a:hover {
+    border:1px solid #43ad64;
+    border-radius:15px;
+    padding:8px 8px 0px 8px;
+}
 
 /*****End Menu*****/
 
@@ -135,52 +158,5 @@ span.deep-bold {
     font-weight:bold;
 
 }
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-div.main-menu ul li {
-    display: inline-block;
-    box-sizing: border-box;
-}
-
-div.main-menu ul li a {
-    color: #399;
-    padding: 5px 4px;
-}
-
-
-div.main-menu ul li:hover {
-    border:1px solid #333;
-    border-radius: 15px;
-}
-
-
-
-
-
-
-
-div.logo img {
-    padding-top: 22px;
-    margin-left: -105px;
-}
-
 
 */
