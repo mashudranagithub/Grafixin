@@ -72,7 +72,7 @@ h6{
 .small-g{
     background-image: url(../images/smallG.png);
     background-repeat: no-repeat;
-    left: 0;
+    left: -260px;
     top: 172px;
     height: 726px;
     width: 560px;
@@ -151,7 +151,8 @@ h6{
 /***** Start viewport-text *****/
 
 .viewport-text {
-    padding-top: 235px;
+    position:absolute;
+    padding-top: 35vh;
 }
 
 .viewport-text h1{
@@ -168,6 +169,7 @@ font-family: 'Khmer_sangam_mnregular';
     color: #0e7070;
     font-weight: bold;
     float: right;
+    padding-right: 240px;
     margin-bottom: 15px;
     font-family: 'arial_rounded_mt_boldbold';
 }
@@ -183,24 +185,4 @@ font-family: 'Khmer_sangam_mnregular';
                                            End Main ViewPort
 ******************************************************************************************************************/
 
-
-
-/*
-.viewport-text h2 {
-    color: #0e7070;
-    padding-right: 60px;
-    text-align: right;
-    font-family: 'Khmer_sangam_mnregular';
-    padding-top:215px;
-}
-
-span.deep-bold {
-    font-size: 48px;
-    
-    font-family: 'Arial Rounded';
-    display: block;
-    font-weight:bold;
-
-}
-*/
 
