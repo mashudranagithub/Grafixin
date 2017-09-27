@@ -7,6 +7,15 @@
 
 }
 
+@font-face {
+    font-family: 'arial_rounded_mt_boldbold';
+    src: url('../fonts/arlrdbd-webfont.woff2') format('woff2'),
+         url('../fonts/arlrdbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     margin:0;
     padding:0;
@@ -24,6 +33,16 @@ ul{
 }
 
 ul li{
+    margin:0;
+    padding:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
     margin:0;
     padding:0;
 }
@@ -91,7 +110,7 @@ ul li{
 
 
 .logo span {
-    left: 105px;
+    left: 113px;
     top: 60px;
     font-size: 48px;
     color: #0e7070;
@@ -129,6 +148,33 @@ ul li{
 /*****End Menu*****/
 
 
+/***** Start viewport-text *****/
+
+.viewport-text {
+    padding-top: 235px;
+}
+
+.viewport-text h1{
+font-family: 'Khmer_sangam_mnregular';
+    font-size: 48px;
+    color: #04805c;
+    letter-spacing: -2px;
+    float: left;
+    padding-right: 60px;
+}
+
+
+.viewport-text h1.deep-bold{
+    color: #0e7070;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 15px;
+    font-family: 'arial_rounded_mt_boldbold';
+}
+
+/*****End viewport-text *****/
+
+
 /*******************************  End Head-Section  ************************************/
 
 
@@ -138,25 +184,23 @@ ul li{
 ******************************************************************************************************************/
 
 
-/*
 
+/*
 .viewport-text h2 {
     color: #0e7070;
-    font-weight: 100;
     padding-right: 60px;
-    letter-spacing: 1px;
     text-align: right;
-    font-family: Myriad Pro;
-    font-size: 47px;
+    font-family: 'Khmer_sangam_mnregular';
     padding-top:215px;
 }
 
 span.deep-bold {
     font-size: 48px;
-    letter-spacing: 0px;
+    
+    font-family: 'Arial Rounded';
     display: block;
     font-weight:bold;
 
 }
-
 */
+
